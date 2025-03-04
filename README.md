@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Crypto Price Tracker
 
-## Getting Started
+A **Next.js** dashboard for live cryptocurrency prices and **Docusaurus** documentation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Project Structure
+
+crypto-tracker/ │── web-app/ # Next.js project for the crypto tracker dashboard
+│ ├── src/ # Contains all Next.js source code
+│── docs/ # Docusaurus documentation
+│── package.json # Project dependencies
+│── README.md # Setup instructions
+
+
+---
+
+## 🛠 Setup Instructions  
+
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/phanijyothi11-tamu/crypto-tracker.git
+cd crypto-tracker
 ```
+🖥 Web App Setup (Next.js)
+Navigate into the web-app folder:
+```sh
+cd web-app
+```
+🔹 Install Dependencies
+```sh
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm install
+```
+🔹 Run the Development Server
+```sh
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run dev
+```
+📌 The app will be available at: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📖 Docs Setup (Docusaurus)
+Navigate to the docs folder:
 
-## Learn More
+```sh
 
-To learn more about Next.js, take a look at the following resources:
+cd ../docs
+```
+🔹 Install Dependencies
+```sh
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm install
+```
+🔹 Start the Documentation Server
+```sh
+npm run start
+```
+📌 The docs will be available at: http://localhost:3001
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔄 Updating & Pushing Changes
+After making changes, commit and push updates:
 
-## Deploy on Vercel
+```sh
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+📜 License
+This project is open-source and available under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
