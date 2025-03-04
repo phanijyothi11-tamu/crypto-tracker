@@ -6,11 +6,11 @@ A **Next.js** dashboard for live cryptocurrency prices and **Docusaurus** docume
 
 ## 🚀 Project Structure
 
-crypto-tracker/ │── web-app/ # Next.js project for the crypto tracker dashboard
-│ ├── src/ # Contains all Next.js source code
-│── docs/ # Docusaurus documentation
-│── package.json # Project dependencies
-│── README.md # Setup instructions
+crypto-tracker/ │── web-app/   # Next.js project for the crypto tracker dashboard
+│ ├── src/   # Contains all Next.js source code
+│── docs/   # Docusaurus documentation
+│── package.json   # Project dependencies
+│── README.md   # Setup instructions
 
 
 ---
